@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table colspan and rowspan</title>
+</head>
+<body>
+    <h1>This is Tables only and the <span style="color: red;">colspan and rowspan </span>is given below </h1>
+    <table border="4px" >
+        <tr>
+            <th>Empno</th>
+            <th>Ename</th>
+            <th>Job</th>
+            <th>Salary</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Rupesh</td>
+            <td>IT</td>
+            <td>50,000</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Raj</td>
+            <td>HR</td>
+            <td>60,000</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Prem</td>
+            <td>Sales</td>
+            <td>30,000</td>
+        </tr>
+    </table>
+    <br>
+    <table border="4px">
+        <tr>
+            <th  colspan="4">Empno</th>
+            
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Rupesh</td>
+            <td>IT</td>
+            <td>50,000</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Raj</td>
+            <td>HR</td>
+            <td>60,000</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Prem</td>
+            <td>Sales</td>
+            <td>30,000</td>
+        </tr>
+    </table>
+    <br>
+    <table border="4px" >
+        <tr>
+            <!-- <th>Empno</th> -->
+            <!-- <th>Ename</th> -->
+            <!-- <th>Job</th> -->
+            <!-- <th>Salary</th> -->
+        </tr>
+
+        <tr>
+            <td rowspan="3">101</td>
+            <td>Rupesh</td>
+            <td>IT</td>
+            <td>50,000</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Raj</td>
+            <td>HR</td>
+            <!-- <td>60,000</td> -->
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Prem</td>
+            <td>Sales</td>
+            <!-- <td>30,000</td> -->
+        </tr>
+    </table>
+    
+</body>
+</html>
